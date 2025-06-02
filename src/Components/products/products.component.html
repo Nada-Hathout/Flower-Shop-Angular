@@ -1,0 +1,26 @@
+
+<div class="category-tabs">
+<button [ngClass]="{'active-tab':selectedCategoryId === 'All'}"
+(click)="selectCategory('All')"
+    class="tab-button">
+All
+</button>
+<button *ngFor="let cat of categories" [ngClass]="{'active-tab':selectedCategoryId===cat.Id}"
+(click)="selectCategory(cat.Id)"
+ class="tab-button">
+{{cat.Name}}
+</button>
+</div>
+<div class="row row-cols-1 row-cols-md-4 g-4 m-1">
+  <div class="col" *ngFor="let prd of filterProducts ">
+    <div class="card">
+      <img [src]="prd.ImgUrl" class="card-img-top" height="200px" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">{{prd.Name}}</h5>
+        <p class="card-text"> Price: {{prd.Price}}</p>
+         <p class="card-text"> Quntity: {{prd.Qty}}</p>
+         <input type="button" class="btn btn-success" value="Add To Cart" (click)="AddToCart()" style="float: right;"> 
+      </div>
+    </div>
+  </div>
+</div>

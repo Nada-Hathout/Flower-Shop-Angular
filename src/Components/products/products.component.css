@@ -1,0 +1,23 @@
+.category-tabs {
+  display: flex;
+  gap: 6px;
+  /* margin-bottom: 1px; */
+ 
+}
+
+.tab-button {
+  padding: 8px 16px;
+  border: none;
+  background-color: lightgray;
+  border-radius: 4px;
+  cursor: pointer;
+  bottom: 0%;
+   align-items: center;
+}
+
+.active-tab {
+  background-color: #2db37b;
+  color: white;
+}
+
+
