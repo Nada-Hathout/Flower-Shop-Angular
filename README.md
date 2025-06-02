@@ -1,6 +1,26 @@
 # App1
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.11.
+##Description
+Angular Flower Shop Project
+
+This project is a modern, responsive web application built with Angular, designed to serve as an online flower shop. It allows users to browse a variety of fresh flowers and floral arrangements, filter products by categories, and view detailed product information. The application features a clean and user-friendly interface optimized for both desktop and mobile devices.
+
+Key features include:
+
+Dynamic product listing with categories such as bouquets, indoor plants, and gifts.
+
+Filtering and sorting options to help users find the perfect flowers easily.
+
+Detailed product pages with images, descriptions, and pricing.
+
+Integration with backend APIs to fetch real-time product data.
+
+Shopping cart functionality for adding and managing selected items.
+
+Responsive design for seamless user experience across devices.
+
+
 
 ## Development server
 
